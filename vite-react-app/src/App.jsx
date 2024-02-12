@@ -8,6 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   const { value } = useGate("vite_react_app_header");
+
   console.log("statsig value:", value);
 
   return (
